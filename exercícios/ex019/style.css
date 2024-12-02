@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+/*
+em HTML é id = em CSS é # (id só pode um elemento por página)
+em HTML é class = em CSS é . (class pode ter mais de um elemento)
+*/
+
+body {
+    background-color: #abcecb;
+    ;
+}
+
+h1 {
+    color: #0c4d42;
+}
+h1#principal {
+    text-align: center;
+    background-color: #1d8170;
+    color: #abcecb;
+}
+
+h2 {
+    color: #1c7969;
+}
+
+/*
+    Tudo que for da classe basico ficará com as config. definidas
+*/
+.basico {
+    color: darkblue;
+}
+
+.intermediario{
+    color: rgb(221, 221, 65);
+}
+
+.avancado{
+    color: rgb(197, 38, 38);
+}
+
+.destaque {
+    background-color: lightyellow;
+}
